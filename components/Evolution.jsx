@@ -184,7 +184,7 @@ const Evolution = ({chainURL, baseColor, pokeID}) =>
 	return (
 		<div className='my-16 capitalize w-full overflow-hidden'>
 			<div className='flex justify-center items-center my-3'>
-				<h1 className={`${baseColor} text-gray-100 px-2 py-1 rounded-md text-3xl`}>Evolution Chain</h1>
+				<h1 className={`${baseColor} text-gray-100 px-2 py-1 rounded-md text-3xl`}>Cadeia de Evolução</h1>
 			</div>
 			{chainInfo && show()}
 		</div>
