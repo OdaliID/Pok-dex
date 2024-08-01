@@ -67,7 +67,7 @@ const Basics = ({id, name, weight, height, genus, types, abilities, fte, varieti
 						<div>
 							<h1 className='capitalize text-2xl text-gray-800'>{abilityDesc.name}</h1>
 							<p className='text-xs md:text-base my-6 text-gray-600'>{abilityDesc.desc}</p>
-							<span className='bg-red-500 rounded px-3 py-2 text-white hover:bg-red-600 cursor-pointer' onClick={closeModal}>Close</span>
+							<span className='bg-red-500 rounded px-3 py-2 text-white hover:bg-red-600 cursor-pointer' onClick={closeModal}>Fechar</span>
 						</div>
 					: <Loader />}
 				</div>
@@ -89,15 +89,15 @@ const Basics = ({id, name, weight, height, genus, types, abilities, fte, varieti
 								<div className=" w-2/3 divTableCell">#{id}</div>
 							</div>
 							<div className="divTableRow flex mb-5">
-								<div className="divTableCell w-20 text-gray-600 text-right mr-6">Height</div>
+								<div className="divTableCell w-20 text-gray-600 text-right mr-6">Altura</div>
 								<div className=" w-2/3 divTableCell">{height/10} m</div>
 							</div>
 							<div className="divTableRow flex mb-5">
-								<div className="divTableCell w-20 text-gray-600 text-right mr-6">Weight</div>
-								<div className=" w-2/3 divTableCell">{weight/10} kgs</div>
+								<div className="divTableCell w-20 text-gray-600 text-right mr-6">Peso</div>
+								<div className=" w-2/3 divTableCell">{weight/10} kg</div>
 							</div>
 							<div className="divTableRow flex mb-4">
-								<div className="divTableCell w-20 text-gray-600 text-right mr-6">Type</div>
+								<div className="divTableCell w-20 text-gray-600 text-right mr-6">Tipo</div>
 								<div className=" divTableCell w-2/3">
 									<div className='flex flex-wrap'>
 										{pokeTypes.map(type => 
@@ -112,13 +112,13 @@ const Basics = ({id, name, weight, height, genus, types, abilities, fte, varieti
 								</div>
 							</div>
 							<div className="divTableRow flex mb-4">
-								<div className="divTableCell w-20 text-gray-600 text-right mr-6">Ability</div>
+								<div className="divTableCell w-20 text-gray-600 text-right mr-6">Habilidade</div>
 								<div className=" w-2/3 divTableCell flex justify-start flex-wrap">
 									{abilities.map(x => <h1 onClick={(e)=>bringAbilityDesc(e, x.ability.url)} className={`hover:scale-110 transform transition-transform capitalize mr-2 text-gray-100 px-2 rounded cursor-pointer mb-3 ${baseColor}`} key={x.ability.name}>{x.ability.name}</h1>)}
 								</div>
 							</div>
 							<div className="divTableRow flex">
-								<div className="divTableCell w-20 text-gray-600 text-right mr-6">Forms</div>
+								<div className="divTableCell w-20 text-gray-600 text-right mr-6">Formas</div>
 								<div className=" w-2/3 divTableCell">
 									<div className='flex flex-wrap justify-start'>
 										{varieties.map(v => {
@@ -137,7 +137,7 @@ const Basics = ({id, name, weight, height, genus, types, abilities, fte, varieti
 				</div>
 
 				<div className='w-full lg:w-4/12 h-full lg:pl-12 text-center mt-8 lg:mt-0 lg:text-right leading-relaxed'>
-					{isLegendary ? <div className='rounded-full bg-purple-500 px-3 py-1 inline-block text-gray-100 text-sm shadow-xl'>Legendary</div> : null}
+					{isLegendary ? <div className='rounded-full bg-purple-500 px-3 py-1 inline-block text-gray-100 text-sm shadow-xl'>Lendário</div> : null}
 					<div className="mt-3">
 						<h1 className='text-xl text-gray-600'>{genus}</h1>
 						<h1 className='text-md text-gray-500 gn font-bold tracking-wide'>{extractFTE()}</h1>
