@@ -12,21 +12,19 @@
   Este é um app Pokedex construído usando <a href="https://nextjs.org/">Next.js</a> e <a href="http://tailwindcss.com/">TailwindCSS</a>, além de utilizar a <a href="https://pokeapi.co/">PokeAPI</a> para retornar dados dos Pokémon.
 </p>
 
-<p align="center">
-  <a href="http://nextdex.vercel.app">Confira o site</a>. Deixe uma 🌟 se você gostou. Isso faria meu dia 😊.
-</p>
-
 ## Capturas de Tela - Desktop
 
-<div align="center">
+<div>
   <img src="/screenshots/InicioPokedexDesktop.png" alt="desktop-inicio" />
   <img src="/screenshots/Arcanine.png" alt="arcanine" />
   <img src="/screenshots/charizard.png" alt="charizard" />
   <img src="/screenshots/Rayquaza.png" alt="rayquaza" />
   <img src="/screenshots/RayquazaDADOS.png" alt="raydados" />
   <img src="/screenshots/RayquazaACURRACY.png" alt="rayacuraccy" />
-  
+</div>
+
 ## Capturas de Tela - Mobile
+
 <div>
   <img src="/screenshots/InicioPokedex.jpg" width="200" alt="mobile-inicio" />
   <img src="/screenshots/Hypno.jpg" width="200" alt="hypno" />
