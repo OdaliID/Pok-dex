@@ -59,7 +59,7 @@ const PokeDetails = () => {
 								<BackArrow  />
 							</span>
 							<span>
-								<Link href='/'>Back to Home.</Link>
+								<Link href='/'>De volta ao Inicio.</Link>
 							</span>
 						</div>
 					</div>
