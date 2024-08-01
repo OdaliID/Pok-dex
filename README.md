@@ -4,8 +4,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Website-Up-green" alt="Website" />
-  <img src="https://img.shields.io/badge/NextJS-10.0.7-blue" alt="NextJS" />
-  <img src="https://img.shields.io/badge/TailwindCSS-2.0.3-blueviolet" alt="TailwindCSS" />
+  <img src="https://img.shields.io/badge/NextJS-12.2.0-blue" alt="NextJS" />
+  <img src="https://img.shields.io/badge/TailwindCSS-3.4.7-blueviolet" alt="TailwindCSS" />
 </p>
 
 <p align="center">
