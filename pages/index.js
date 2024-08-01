@@ -88,9 +88,17 @@ export default function Home({ allPokemonData }) {
           Aviso Legal - Pokémon e Pokédex são marcas registradas de seus respectivos proprietários. 
           Nenhuma infração intencional. Este é apenas um pequeno projeto divertido.
         </h3>
-        <h3 className="flex items-center">
-          Feito com NextJS, TailwindCSS, PokeAPI e muitas lembranças de infância. 
-          Implantado na Vercel <img src="/next.png" alt="next" width={20} height={20} className="mx-2"/>
+        <h3 className="flex items-center space-x-2">
+          <span>Feito com</span>
+          <img src="/nextjs.png" alt="Next.js" width={25} height={20} />
+          <span>NextJS,</span>
+          <img src="/tailwindcss.png" alt="TailwindCSS" width={25} height={20} />
+          <span>TailwindCSS,</span>
+          <img src="/pokeapi.png" alt="PokeAPI" width={50} height={20} />
+          <span>PokeAPI e muitas lembranças de infância.</span>
+          <span>Implantado na</span>
+          <img src="/vercel.png" alt="Vercel" width={25} height={20} /> 
+          <span>Vercel</span>
         </h3>
         <div className="flex text-gray-800">
           <a
