@@ -8,8 +8,6 @@
   <img src="https://img.shields.io/badge/TailwindCSS-2.0.3-blueviolet" alt="TailwindCSS" />
 </p>
 
-<h1 align="center">Pokedex</h1>
-
 <p align="center">
   Este é um app Pokedex construído usando <a href="https://nextjs.org/">Next.js</a> e <a href="http://tailwindcss.com/">TailwindCSS</a>, além de utilizar a <a href="https://pokeapi.co/">PokeAPI</a> para retornar dados dos Pokémon.
 </p>
@@ -18,15 +16,22 @@
   <a href="http://nextdex.vercel.app">Confira o site</a>. Deixe uma 🌟 se você gostou. Isso faria meu dia 😊.
 </p>
 
-## Capturas de Tela
+## Capturas de Tela - Desktop
 
 <div align="center">
-  <img src="https://github.com/drkPrince/dex-next/blob/main/screenshots/dex.png" alt="dex" />
-  <img src="https://github.com/drkPrince/dex-next/blob/main/screenshots/charizard.png" alt="charizard" />
-  <img src="https://github.com/drkPrince/dex-next/blob/main/screenshots/leafeon.png" alt="leafeon" />
-  <img src="https://github.com/drkPrince/dex-next/blob/main/screenshots/greninja.png" alt="greninja" />
-  <img src="https://github.com/drkPrince/dex-next/blob/main/screenshots/mobile-dex.png" width="200" alt="mobile dex" />
-  <img src="https://github.com/drkPrince/dex-next/blob/main/screenshots/oshawatt.png" width="200" alt="oshawatt" />
+  <img src="/screenshots/InicioPokedexDesktop.png" alt="desktop-inicio" />
+  <img src="/screenshots/Arcanine.png" alt="arcanine" />
+  <img src="/screenshots/charizard.png" alt="charizard" />
+  <img src="/screenshots/Rayquaza.png" alt="rayquaza" />
+  <img src="/screenshots/RayquazaDADOS.png" alt="raydados" />
+  <img src="/screenshots/RayquazaACURRACY.png" alt="rayacuraccy" />
+  
+## Capturas de Tela - Mobile
+<div>
+  <img src="/screenshots/InicioPokedex.jpg" width="200" alt="mobile-inicio" />
+  <img src="/screenshots/Hypno.jpg" width="200" alt="hypno" />
+  <img src="/screenshots/Bulbasaur.jpg" width="200" alt="bulbasaur" />
+  <img src="/screenshots/BulbasaurDADOS.jpg" width="200" alt="bulbasaur" />
 </div>
 
 ## Funcionalidades
