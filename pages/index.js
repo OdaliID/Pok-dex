@@ -56,7 +56,7 @@ export default function Home({ allPokemonData }) {
 
         <div className="flex justify-center items-center flex-wrap w-full mt-8">
           {pokemons.length === 0 ? (
-            <h3 className="text-gray-800 gn">Not found</h3>
+            <h3 className="text-gray-800 gn">Não encontrado</h3>
           ) : (
             pokemons.map((pokemon) => {
               const poke_id = pokemon.url.split("/")[6];
