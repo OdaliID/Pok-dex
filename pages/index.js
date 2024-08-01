@@ -25,7 +25,7 @@ export default function Home({ allPokemonData }) {
       <main className="px-4 pt-12 pb-4 bg-gradient-to-r from-red-50 to-green-50 via-blue-50 min-h-screen">
         <div className="flex justify-center items-center">
           <div className="w-12 h-12">
-            <img src="/pokedex.png" alt="pokeball" />
+            <img src="/pokebola.gif" alt="pokeball" />
           </div>
           <h1 className="text-4xl md:text-6xl bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 text-transparent bg-clip-text text-center ml-2">
             Pokédex
@@ -85,20 +85,19 @@ export default function Home({ allPokemonData }) {
 
       <footer className="px-12 pb-12 text-left mt-20 text-xs md:text-base gn font-bold tracking-wide text-gray-600 leading-loose space-y-3">
         <h3>
-          Disclaimer - Pokemon and Pokédex are registered trademarks of their
-          respective owners. No infringement intended. This is just a fun little
-          side project.
+          Aviso Legal - Pokémon e Pokédex são marcas registradas de seus respectivos proprietários. 
+          Nenhuma infração intencional. Este é apenas um pequeno projeto divertido.
         </h3>
-        <h3 className="">
-          Made with NextJS, TailwindCSS, PokeAPI and a lot of wonderful
-          childhood memories. Deployed on Vercel.
+        <h3 className="flex items-center">
+          Feito com NextJS, TailwindCSS, PokeAPI e muitas lembranças de infância. 
+          Implantado na Vercel <img src="/next.png" alt="next" width={20} height={20} className="mx-2"/>
         </h3>
         <div className="flex text-gray-800">
           <a
             className="hover:underline"
-            href="https://github.com/drkPrince/dex-next"
+            href="https://github.com/OdaliID/Pokedex"
           >
-            Check out the code on Github
+            Confira o código no Github
           </a>
           <svg
             className="mx-2"
