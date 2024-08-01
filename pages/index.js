@@ -90,14 +90,22 @@ export default function Home({ allPokemonData }) {
         </h3>
         <h3 className="flex flex-wrap items-center space-x-2">
           <span>Feito com</span>
-          <img src="/nextjs.png" alt="Next.js" className="w-5 h-5 md:w-5 md:h-5" />
+          <a href="https://nextjs.org" target="_blank" rel="noopener noreferrer">
+            <img src="/nextjs.png" alt="Next.js" className="w-5 h-5 md:w-5 md:h-5" />
+          </a>
           <span>NextJS,</span>
-          <img src="/tailwindcss.png" alt="TailwindCSS" className="w-5 h-5 md:w-5 md:h-5" />
+          <a href="https://tailwindcss.com" target="_blank" rel="noopener noreferrer">
+            <img src="/tailwindcss.png" alt="TailwindCSS" className="w-5 h-5 md:w-5 md:h-5" />
+          </a>
           <span>TailwindCSS,</span>
-          <img src="/pokeapi.png" alt="PokeAPI" className="w-12 h-12 md:w-12 md:h-12" />
+          <a href="https://pokeapi.co" target="_blank" rel="noopener noreferrer">
+            <img src="/pokeapi.png" alt="PokeAPI" className="w-12 h-12 md:w-12 md:h-12" />
+          </a>
           <span>PokeAPI e muitas lembranças de infância.</span>
           <span>Implantado na</span>
-          <img src="/vercel.png" alt="Vercel" className="w-5 h-5 md:w-5 md:h-5" />
+          <a href="https://vercel.com" target="_blank" rel="noopener noreferrer">
+            <img src="/vercel.png" alt="Vercel" className="w-5 h-5 md:w-5 md:h-5" />
+          </a>
           <span>Vercel</span>
         </h3>
         <div className="flex text-gray-800">
