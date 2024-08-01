@@ -78,14 +78,14 @@ const Moves = ({moves, baseColor}) =>
 					{moveData ? 
 						<div className='w-full h-full text-center capitalize flex-1'>
 							<h1 className={`text-4xl text-gray-800 ${baseColor}-color`}>{moveData.data.name}</h1>
-							<h2 className='text-gray-500 mt-1'>{moveData.data.type.name} type move</h2>
+							<h2 className='text-gray-500 mt-1'>{moveData.data.type.name} Tipo de movimento</h2>
 							<div className='flex justify-between w-full mt-12 text-gray-700'>
 								<div className='text-center'>
-									<h3>Accuracy</h3>
+									<h3>Precisão</h3>
 									<h4>{moveData.data.accuracy ? moveData.data.accuracy : '-'}</h4>
 								</div>
 								<div className='text-center'>
-									<h3>Power</h3>
+									<h3>Poder</h3>
 									<h4>{moveData.data.power ? moveData.data.power : '-'}</h4>
 								</div>
 								<div className='text-center'>
@@ -93,14 +93,14 @@ const Moves = ({moves, baseColor}) =>
 									<h4>{moveData.data.pp ? moveData.data.pp : '-'}</h4>
 								</div>
 								<div className='text-center'>
-									<h3>Priority</h3>
+									<h3>Prioridade</h3>
 									<h4>{moveData.data.priority ? moveData.data.priority : '-'}</h4>
 								</div>
 							</div>
 							<div className='my-6'>
 								<p className='text-gray-600'>{moveData.fte[0].flavor_text}</p>
 							</div>
-							<span className='bg-red-500 rounded px-3 py-2 text-white hover:bg-red-600 cursor-pointer' onClick={close}>Close</span>
+							<span className='bg-red-500 rounded px-3 py-2 text-white hover:bg-red-600 cursor-pointer' onClick={close}>Fechar</span>
 						</div>
 						: <Loader />
 					}
@@ -124,19 +124,19 @@ const Moves = ({moves, baseColor}) =>
 			<div className="divTable lg:px-16 my-10">
 				<div className="body flex flex-col">
 					<div className={`row flex justify-between w-full border-b-2 shadow-2xl pr-4 font-bold ${baseColor}-color text-sm lg:text-lg`}>
-						<div className="w-2/12 lg:pl-4">Name</div>
-						<div className="w-2/12">Level Learned</div>
-						<div className="w-1/12">Power</div>
+						<div className="w-2/12 lg:pl-4">Nome</div>
+						<div className="w-2/12">Nível aprendido</div>
+						<div className="w-1/12">Poder</div>
 						<div className="w-1/12">PP</div>
-						<div className="w-1/12">Accuracy</div>
-						<div className="w-1/12">Type</div>
+						<div className="w-1/12">Precisão</div>
+						<div className="w-1/12">Tipo</div>
 					</div>
 					<div style={{height: '55vh'}} className='overflow-y-scroll overflow-x-hidden py-3 bg-transparent border-b border-gray-300'>{finalMoves}</div>
 				</div>
 			</div>
 			
 			<div className='flex justify-center'>
-				<label htmlFor="game-selection" className='mr-4'>Select Game: </label>
+				<label htmlFor="game-selection" className='mr-4'>Selecione a Versão: </label>
 				<select name="game-selection" value={selectedGame} onChange={(e)=>setGame(e.target.value)} >
 					{gameList.map(x => <option key={x} value={x} className='capitalize text-xs'>{x.replace('-', ' ')}</option>)}
 				</select>
