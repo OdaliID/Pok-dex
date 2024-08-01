@@ -1,48 +1,84 @@
-
 <h1 align="center">
   <img alt="Pokedex" src="https://ik.imagekit.io/hwyksvj4iv/pokedex_N_WgWrJK0s.png" width="350px" />
 </h1>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Website-Up-green" alt="Website" />
+  <img src="https://img.shields.io/badge/NextJS-10.0.7-blue" alt="NextJS" />
+  <img src="https://img.shields.io/badge/TailwindCSS-2.0.3-blueviolet" alt="TailwindCSS" />
+</p>
 
-![Website](https://img.shields.io/badge/Website-Up-green)
-![Next](https://img.shields.io/badge/NextJS-10.0.7-blue)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-2.0.3-blueviolet)
+<h1 align="center">Pokedex</h1>
 
-# Pokedex
+<p align="center">
+  Este é um app Pokedex construído usando <a href="https://nextjs.org/">Next.js</a> e <a href="http://tailwindcss.com/">TailwindCSS</a>, além de utilizar a <a href="https://pokeapi.co/">PokeAPI</a> para retornar dados dos Pokémon.
+</p>
 
-This is a Pokedex app built using [Next.js](https://nextjs.org/) and [TailwindCSS](http://tailwindcss.com).
+<p align="center">
+  <a href="http://nextdex.vercel.app">Confira o site</a>. Deixe uma 🌟 se você gostou. Isso faria meu dia 😊.
+</p>
 
-[Check out the Website](http://nextdex.vercel.app).
-Leave a 🌟 if you liked it. That would make my day 😊.
+## Capturas de Tela
 
-## Screenshots
+<div align="center">
+  <img src="https://github.com/drkPrince/dex-next/blob/main/screenshots/dex.png" alt="dex" />
+  <img src="https://github.com/drkPrince/dex-next/blob/main/screenshots/charizard.png" alt="charizard" />
+  <img src="https://github.com/drkPrince/dex-next/blob/main/screenshots/leafeon.png" alt="leafeon" />
+  <img src="https://github.com/drkPrince/dex-next/blob/main/screenshots/greninja.png" alt="greninja" />
+  <img src="https://github.com/drkPrince/dex-next/blob/main/screenshots/mobile-dex.png" width="200" alt="mobile dex" />
+  <img src="https://github.com/drkPrince/dex-next/blob/main/screenshots/oshawatt.png" width="200" alt="oshawatt" />
+</div>
 
-<img src="https://github.com/drkPrince/dex-next/blob/main/screenshots/dex.png" />
-<img src="https://github.com/drkPrince/dex-next/blob/main/screenshots/charizard.png" />
-<img src="https://github.com/drkPrince/dex-next/blob/main/screenshots/leafeon.png" />
-<img src="https://github.com/drkPrince/dex-next/blob/main/screenshots/greninja.png" />
-<img src="https://github.com/drkPrince/dex-next/blob/main/screenshots/mobile-dex.png" width='200' />
-<img src="https://github.com/drkPrince/dex-next/blob/main/screenshots/oshawatt.png" width='200' />
+## Funcionalidades
 
-## Features
+- Dados de 807 espécies e formas diferentes.
+- Movimentos dos Pokémon.
+- Dados de Evolução.
+- Habilidades.
+- Interface responsiva para dispositivos móveis.
 
-1. Data of 807 species and different forms.
-2. Pokemon Moves.
-3. Evolution Data.
-4. Abilities.
+## Tecnologias Utilizadas
 
-## Getting Started
+- **Next.js**: Framework React para renderização do lado do servidor e geração de sites estáticos.
+- **TailwindCSS**: Framework CSS para estilização rápida e eficiente.
+- **PokeAPI**: API pública para acessar dados dos Pokémon.
 
-1. First install all the dependencies with `yarn install` or `npm install`.
-2. Then, run the development server using `yarn dev` or `npm run dev`.
-3. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Começando
 
-## A word of Thanks
+Para rodar este projeto localmente, siga os passos abaixo:
 
-- [PokeAPI](https://github.com/PokeAPI/pokeapi) for providing Pokemon Data.
-- [Duiker101](https://github.com/duiker101/pokemon-type-svg-icons) for making beautiful pokemon type icons.
-- [Shivam](https://github.com/HybridShivam/Pokemon) for collecting the images.
+```sh
+# Clone o repositório:
+git clone https://github.com/seu-usuario/pokedex.git
 
-## Copyright
+# Navegue até o diretório do projeto:
+cd pokedex
 
-Pokémon and Pokédex are registered trademarks of their respective owners. No copyright infringement intended. This is just a fun little side project made by a PokeFan.
+# Instale todas as dependências com yarn ou npm:
+yarn install
+# ou
+npm install
+
+# Execute o servidor de desenvolvimento:
+yarn dev
+# ou
+npm run dev
+
+# Abra http://localhost:3000 no seu navegador para ver o resultado.
+```
+## Estrutura do Projeto
+
+- **pages/**: Contém as páginas da aplicação.
+- **components/**: Contém os componentes reutilizáveis da aplicação.
+- **styles/**: Contém os arquivos de estilo, incluindo configurações do TailwindCSS.
+- **public/**: Contém arquivos públicos, como imagens e ícones.
+
+## Agradecimentos
+
+- [PokeAPI](https://github.com/PokeAPI/pokeapi) por fornecer os dados dos Pokémon.
+- [Duiker101](https://github.com/duiker101/pokemon-type-svg-icons) por criar ícones de tipos de Pokémon.
+- [Shivam](https://github.com/HybridShivam/Pokemon) por coletar as imagens.
+
+## Direitos Autorais
+
+Pokémon e Pokédex são marcas registradas de seus respectivos proprietários. Nenhuma infração de direitos autorais pretendida. Este é apenas um pequeno projeto paralelo feito por um fã de Pokémon.
